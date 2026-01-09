@@ -1,0 +1,15 @@
+{
+  "name": "navtalk-openai-tts-realtime",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "server": "node server.js",
+    "web": "npx http-server -p 5178 -c-1 ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "openai": "^4.0.0"
+  }
+}
